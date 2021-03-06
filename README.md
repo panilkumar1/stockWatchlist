@@ -20,6 +20,6 @@ mvn spring-boot:run
 ## Features
 - This is a single user Watchlist service for Financial Stocks.
 - Multi-user is not supported.
-- NO Persistence
+- NO Persistence. Watchlist data is lost upon restart.
 - Enter valid Symbols only
-- 
+- Stocks data is refereshed every 5 seconds
