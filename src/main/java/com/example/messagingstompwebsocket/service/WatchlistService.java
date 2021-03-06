@@ -25,7 +25,7 @@ public class WatchlistService {
 		stockSymbols.remove(symbol);
 	}
 
-	@Scheduled(fixedDelay = 10000)
+	@Scheduled(fixedDelay = 5000)
 	public void PushStockPrices() {
 		watchlistController.pushWatchlist(getWatchlistDto());
 	}
